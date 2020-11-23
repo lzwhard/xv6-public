@@ -89,3 +89,10 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+// return year of unix 6 release
+int
+sys_getyear(void)
+{
+  return 1975;
+}
