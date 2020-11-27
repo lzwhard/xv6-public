@@ -532,3 +532,10 @@ procdump(void)
     cprintf("\n");
   }
 }
+
+int 
+cps(void)
+{
+    struct proc *curproc = myproc();
+    return curproc->pid;
+}

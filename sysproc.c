@@ -96,3 +96,11 @@ sys_getyear(void)
 {
   return 1975;
 }
+
+// return current process pid
+int
+sys_cps(void)
+{
+  return cps();
+}
+

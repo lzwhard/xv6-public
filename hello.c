@@ -7,5 +7,8 @@ main(int argc, char *argv[])
 {
   printf(1, "welcome lzw to os world!\n");
   printf(1, "unix release: %d!\n", getyear());
-  exit();
+
+  printf(1, "curproc pid: %d\n", cps());
+
+  //exit();
 }
